@@ -537,7 +537,7 @@
 
   ;; H2 embedded database
   :database/h2
-  {:extra-deps {com.h2database/h2                 {:mvn/version "2.1.210"}
+  {:extra-deps {com.h2database/h2                 {:mvn/version "2.1.212"}
                 com.github.seancorfield/next.jdbc {:mvn/version "1.2.780"}}}
 
   ;; End of Databases and drivers uses only during development
