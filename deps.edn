@@ -1043,7 +1043,7 @@
   ;; National Vulnerability Database
   ;; clojure -T:security/nvd "" "$(clojure -Spath)"
   :security/nvd
-  {:extra-deps {nvd-clojure/nvd-clojure {:mvn/version "2.5.0"}}
+  {:extra-deps {nvd-clojure/nvd-clojure {:mvn/version "2.6.0"}}
    :main-opts ["-m" "nvd.task.check"]}
 
   ;; End of Security
