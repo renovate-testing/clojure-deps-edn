@@ -510,7 +510,7 @@
   ;; pretty printing capabilities for Clojure code and EDN
   ;; clojure -M:data/zprint filename
   :format/zprint
-  {:extra-deps {zprint/zprint {:mvn/version "1.2.2"}}
+  {:extra-deps {zprint/zprint {:mvn/version "1.2.3"}}
    :main-opts  ["-m" "zprint.main"]}
 
   ;; check and fix Clojure formatting with cljfmt:
